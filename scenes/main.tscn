@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvxgame123main"]
+
+[ext_resource type="Script" uid="uid://cdcp637evw28t" path="res://scripts/game_manager.gd" id="1_game_manager"]
+
+[node name="GameManager" type="Node3D"]
+script = ExtResource("1_game_manager")

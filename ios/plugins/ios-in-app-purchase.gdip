@@ -1,0 +1,16 @@
+[config]
+name="IOSInAppPurchase"
+binary="ios-in-app-purchase.xcframework"
+initialization="ios_in_app_purchase_init"
+deinitialization="ios_in_app_purchase_deinit"
+use_swift_runtime=true
+
+[dependencies]
+linked=[]
+embedded=[]
+system=["Foundation.framework", "StoreKit.framework"]
+capabilities=["In-App Purchase"]
+files=[]
+linker_flags=["-ObjC"]
+
+[plist]

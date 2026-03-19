@@ -1,0 +1,27 @@
+# Godot
+.godot/
+*.import
+
+# iOS build artifacts
+build/
+*.ipa
+*.pck
+*.xcarchive/
+*.xcframework/
+Orbital Pop.xcodeproj/
+Orbital Pop.xcframework/
+MoltenVK.xcframework/
+
+# iOS plugin binaries (large xcframeworks)
+ios/framework/
+ios/plugins/*.xcframework
+ios/plugins/*.xcframework.old
+ios/plugins/ios-in-app-purchase/*.xcframework
+
+# macOS
+.DS_Store
+
+# Distribution
+DistributionSummary.plist
+ExportOptions.plist
+Packaging.log
