@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Black background -->
+  <rect width="400" height="200" fill="#000"/>
+  
+  <g transform="translate(110, 100)">
+    <!-- Logo mark -->
+    <circle cx="0" cy="0" r="24" fill="#00D4FF"/>
+    <circle cx="0" cy="0" r="19" fill="#FFF"/>
+    <circle cx="0" cy="0" r="15" fill="#00D4FF"/>
+    <circle cx="0" cy="0" r="10" fill="#FFF"/>
+    <circle cx="0" cy="0" r="6" fill="#00D4FF"/>
+    
+    <!-- Top-left quarter -->
+    <path d="M 0 0 L 0 -24 A 24 24 0 0 0 -24 0 Z" fill="#0066AA"/>
+    <path d="M 0 0 L 0 -19 A 19 19 0 0 0 -19 0 Z" fill="#FF0099"/>
+    <path d="M 0 0 L 0 -15 A 15 15 0 0 0 -15 0 Z" fill="#0066AA"/>
+    <path d="M 0 0 L 0 -10 A 10 10 0 0 0 -10 0 Z" fill="#FF0099"/>
+    <path d="M 0 0 L 0 -6 A 6 6 0 0 0 -6 0 Z" fill="#0066AA"/>
+    
+    <!-- Bottom-left quarter -->
+    <path d="M 0 0 L -24 0 A 24 24 0 0 0 0 24 Z" fill="#00AA44"/>
+    <path d="M 0 0 L -19 0 A 19 19 0 0 0 0 19 Z" fill="#FFDD00"/>
+    <path d="M 0 0 L -15 0 A 15 15 0 0 0 0 15 Z" fill="#00AA44"/>
+    <path d="M 0 0 L -10 0 A 10 10 0 0 0 0 10 Z" fill="#FFDD00"/>
+    <path d="M 0 0 L -6 0 A 6 6 0 0 0 0 6 Z" fill="#00AA44"/>
+    
+    <!-- Bottom-right quarter -->
+    <path d="M 0 0 L 0 24 A 24 24 0 0 0 24 0 Z" fill="#0066AA"/>
+    <path d="M 0 0 L 0 19 A 19 19 0 0 0 19 0 Z" fill="#FF0099"/>
+    <path d="M 0 0 L 0 15 A 15 15 0 0 0 15 0 Z" fill="#0066AA"/>
+    <path d="M 0 0 L 0 10 A 10 10 0 0 0 10 0 Z" fill="#FF0099"/>
+    <path d="M 0 0 L 0 6 A 6 6 0 0 0 6 0 Z" fill="#0066AA"/>
+    
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="2" fill="#000"/>
+    
+    <!-- Text -->
+    <text x="38" y="10" font-family="'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#00D4FF" letter-spacing="2">LUMA</text>
+  </g>
+</svg>

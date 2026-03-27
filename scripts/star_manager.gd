@@ -71,3 +71,19 @@ func grant_ad_reward_stars() -> void:
 
 func has_stars() -> bool:
 	return stars > 0
+
+# ===== DAILY CHALLENGE =====
+
+func is_daily_challenge_completed() -> bool:
+	var config = ConfigFile.new()
+	var err = config.load("user://save.cfg")
+	if err == OK:
+		var completed_date = config.get_value("daily", "completed_date", "")
+		return completed_date == _get_today_string()
+	return false
+
+func complete_daily_challenge() -> void:
+	var config = ConfigFile.new()
+	config.load("user://save.cfg")
+	config.set_value("daily", "completed_date", _get_today_string())
+	config.save("user://save.cfg")
